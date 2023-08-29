@@ -1,77 +1,306 @@
 [
   {
-    "email": "info@adpacklimited.com"
+    "name": "L'OREAL EAST AFRICA LTD",
+    "email": "info@loreal.com"
   },
   {
-    "email": "info@kenafricind.com"
+    "name": "KENAFRIC INDUSTRIES LIMITED",
+    "email": "info@kenafricml.com"
   },
   {
+    "name": "BRITISH AMERICAN TOBACCO KENYA PLC",
     "email": "info_ke@bat.com"
   },
   {
-    "email": "consumercare.ukl@unilever.com"
+    "name": "ABYSSINIA IRON AND STEEL LIMITED",
+    "email": "information@abyssiniagroup.com"
   },
   {
-    "email": "consumers@ke.nestle.com"
+    "name": "MUMIAS SUGAR COMPANY LIMITED",
+    "email": "md@chemsugar.co.ke"
   },
   {
-    "email": "info@bidcoafrica.com"
+    "name": "KAPA OIL REFINERIES LTD",
+    "email": "info@kapa-oil.com"
   },
   {
-    "email": "support@simbacement.co.ke"
+    "name": "BAMBURI CEMENT PLC",
+    "email": "corp.info@lafarge.com"
   },
   {
-    "email": "info@silpack.com"
+    "name": "C AND P SHOES INDUSTRIES LTD",
+    "email": "info@cpshoes.com"
   },
   {
-    "email": "info@kartasi.com"
+    "name": "CZARNIKOW SUGAR EAST AFRICA LTD",
+    "email": "jtaylor@czarnikow.com"
   },
   {
-    "email": "customercare@oshochem.com"
-  },
-  {
-    "email": "marketing@dawda.net"
-  },
-  {
+    "name": "CROWN PAINTS KENYA PLC",
     "email": "info@crownpaints.co.ke"
   },
   {
-    "email": "customercare@festivebrands.co.ke"
+    "name": "HASHI ENERGY LIMITED",
+    "email": "Info@hashienergy.com"
   },
   {
-    "email": "info@kingplastic.com"
+    "name": "TATA CHEMICALS MAGADI LIMITED",
+    "email": "info@tatachemicals.com"
   },
   {
-    "email": "info@twiga.com"
+    "name": "TECHNOPLAST LIMITED",
+    "email": "showroom@techno-plast.com"
   },
   {
-    "email": "inquiry@abcosindustrial.com"
+    "name": "MANIPAL INTERNATIONAL PRINTING PRESS LTD",
+    "email": "info@manipalea.com"
   },
   {
-    "email": "info@pipeman.com"
+    "name": "INSTA PRODUCTS (EPZ) LIMITED",
+    "email": "info@instaproducts.co"
   },
   {
-    "email": "buhler.nairobi@buhlergroup.com"
+    "name": "NAILS AND STEEL PRODUCTS LIMITED",
+    "email": "business@nspltd.com"
   },
   {
-    "email": "info@diageo.com"
+    "name": "NATIONAL CEMENTS COMPANY LIMITED",
+    "email": "info@devkisteel.com"
   },
   {
-    "email": "info@ashut.com"
+    "name": "UNITED ARYAN (EPZ) LIMITED",
+    "email": "admin@unitedaryan.net"
   },
   {
-    "email": "customercare@eacables.com"
+    "name": "TILE AND CARPET CENTRE LIMITED",
+    "email": "mail@tilecentre.com"
   },
   {
-    "email": "info@vitafoam.co.ke"
+    "name": "ALLIANCE CONCRETE LIMITED",
+    "email": "info@alliance-concrete.com"
   },
   {
+    "name": "PROTO ENERGY LTD",
+    "email": "info@protoenergy.com"
+  },
+  {
+    "name": "DODHIA PACKAGING KENYA LIMITED",
+    "email": "sales@dplkenya.com"
+  },
+  {
+    "name": "HEALTH STRAT LIMITED",
+    "email": "info@healthstrat.co.ke"
+  },
+  {
+    "name": "SASINI PLC",
     "email": "info@sasini.co.ke"
   },
   {
-    "email": "sales@allpack.co.ke"
+    "name": "GENERAL PRINTERS LIMITED",
+    "email": "info@gpl.co.ke"
   },
   {
-    "email": "info@chandaria.com"
+    "name": "EAST AFRICAN PORTLAND CEMENT PLC",
+    "email": "customercare@eapcc.co.ke"
+  },
+  {
+    "name": "TWIGA CHEMICAL INDUSTRIES LIMITED",
+    "email": "smubisa@twiga-chem.com"
+  },
+  {
+    "name": "ASHUT ENGINEERS LIMITED",
+    "email": "salesorders@ashut.com"
+  },
+  {
+    "name": "OLIVADO (EPZ) LIMITED",
+    "email": "sales@olivado.com"
+  },
+  {
+    "name": "AQUAMIST LTD",
+    "email": "info@aquamistwater.com"
+  },
+  {
+    "name": "UPFIELD KENYA LIMITED",
+    "email": "medialine@upfield.com"
+  },
+  {
+    "name": "GOLDEN AFRICA KENYA LIMITED",
+    "email": "info@gakl.co.ke"
+  },
+  {
+    "name": "EAST AFRICAN BREWERIES LIMITED",
+    "email": "eablinfo@eabl.com"
+  },
+  {
+    "name": "MANCHESTER OUTFITTERS LIMITED",
+    "email": "service@man-outt.com"
+  },
+  {
+    "name": "VAJAS MANUFACTURERS LIMITED",
+    "email": "sales@vajas.com"
+  },
+  {
+    "name": "THE WRIGLEY COMPANY (EAST AFRICA) LIMITED",
+    "email": "infokenya@wrigley.com"
+  },
+  {
+    "name": "CHARDUST LTD",
+    "email": "info@chardust.com"
+  },
+  {
+    "name": "EAST AFRICAN CABLES PLC",
+    "email": "customercare@eacables.com"
+  },
+  {
+    "name": "MEGH CUSHION INDUSTRIES LIMITED",
+    "email": "info@meghsingh.com"
+  },
+  {
+    "name": "VITAFOAM PRODUCTS LIMITED",
+    "email": "info@vitafoam.co.ke"
+  },
+  {
+    "name": "UNILEVER KENYA LIMITED",
+    "email": "Finance.AP.KE@unilever.com"
+  },
+  {
+    "name": "FORCES EQUIPMENT KENYA LTD",
+    "email": "forces@forces.co.ke"
+  },
+  {
+    "name": "SASINI PLC",
+    "email": "info@sasini.co.ke"
+  },
+  {
+    "name": "BOC KENYA PLC",
+    "email": "boceastafrica@boc.com"
+  },
+  {
+    "name": "BAT KENYA TOBACCO COMPANY LIMITED",
+    "email": "info_ke@bat.com"
+  },
+  {
+    "name": "DODHIA PACKAGING KENYA LIMITED",
+    "email": "sales@dplkenya.com"
+  },
+  {
+    "name": "KNITKRAFT PRODUCTS LIMITED",
+    "email": "info@knitkraft.net"
+  },
+  {
+    "name": "ENGLISH PRESS LIMITED",
+    "email": "mail@englishpress.com"
+  },
+  {
+    "name": "HAPPY COW LTD",
+    "email": "info@happycowhk.com"
+  },
+  {
+    "name": "HI-TECH INKS AND COATING LIMITED",
+    "email": "uday.desai@hitechinks.co.in"
+  },
+  {
+    "name": "ALLPACK INDUSTRIES LTD",
+    "email": "bb@allpack.co.ke"
+  },
+  {
+    "name": "PRIME CARTONS LIMITED",
+    "email": "info@aerogrouplogistics.com"
+  },
+  {
+    "name": "ASL PACKAGING LIMITED",
+    "email": "info@asltrading.co.ke"
+  },
+  {
+    "name": "CARTON EXPERTS LIMITED",
+    "email": "Info@celkenya.com"
+  },
+  {
+    "name": "EAST AFRICAN PACKAGING INDUSTRIES LIMITED",
+    "email": "sales@eapi.co.ke"
+  },
+  {
+    "name": "QUICKPACK LIMITED",
+    "email": "sales@quickpack.co.ke"
+  },
+  {
+    "name": "NCR (KENYA) LIMITED",
+    "email": "africa@chic-global.com"
+  },
+  {
+    "name": "SUPREME PACKAGING LLP",
+    "email": "info@supremepack.com.au"
+  },
+  {
+    "name": "PATIALA DISTILLERS (K) LIMITED",
+    "email": "info@patialadistillerskenya.com"
+  },
+  {
+    "name": "KENYA WINE AGENCIES LIMITED",
+    "email": "info@kwal.co.ke"
+  },
+  {
+    "name": "DION WINE AND SPIRITS EAST AFRICA LIMITED",
+    "email": "info@dionwinesea.com"
+  },
+  {
+    "name": "ECOERI GREEN COMPANY LIMITED",
+    "email": "info@gogreenenergy.co.ke"
+  },
+  {
+    "name": "SIGMA FEEDS LIMITED",
+    "email": "info@sigmafeeds.com"
+  },
+  {
+    "name": "VIVO ENERGY KENYA LIMITED",
+    "email": "info@vivoenergy.com"
+  },
+  {
+    "name": "SPECIALISED SUPPLIERS INVESTMENTS LIMITED",
+    "email": "procurement@kiseb.or.ke"
+  },
+  {
+    "name": "SHANKAN ENTERPRISES LIMITED",
+    "email": "info@shankan.com"
+  },
+  {
+    "name": "TURBAN ENERGY LIMITED",
+    "email": "Info@hashienergy.com"
+  },
+  {
+    "name": "DROPLEX INDUSTRIAL SYSTEMS LIMITED",
+    "email": "info@droplex.com"
+  },
+  {
+    "name": "KENYA BIXA LIMITED",
+    "email": "info@kenyabixa.com"
+  },
+  {
+    "name": "NEOPACK LIMITED",
+    "email": "info@neopack.co.ke"
+  },
+  {
+    "name": "KTDA MANAGEMENT SERVICES LIMITED",
+    "email": "info@ktdateas.com"
+  },
+  {
+    "name": "TETRAPAK EA LIMITED",
+    "email": "info@tetrapak.com"
+  },
+  {
+    "name": "PROMASIDOR (KENYA) LIMITED",
+    "email": "info@promasidor.com"
+  },
+  {
+    "name": "VICTORIA JUICE CO. LTD",
+    "email": "info@victoriajuice.co.ke"
+  },
+  {
+    "name": "GROUPACO HOLDINGS LIMITED",
+    "email": "info@groupaco.co"
+  },
+  {
+    "name": "NOSTALGIC FOODS LIMITED",
+    "email": "info@delightfoods.com"
   }
 ]
