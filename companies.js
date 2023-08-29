@@ -28,39 +28,41 @@ const { response } = require("express");
 
     // Load the domain parts from emails.json
     const emailData = JSON.parse(fs.readFileSync(emailsFileName, "utf-8"));
-    const emailDomainParts = emailData.flatMap((entry) => {
-      const email = entry.email;
-      const domainPart = email.split("@")[1];
-      return domainPart
-        .split(".")
-        .slice(0, -1)
-        .map((part) => part.toLowerCase());
-    });
-    console.log("Loaded email domain parts:", emailDomainParts);
 
-    // Function to find a matching email based on company name
-    function findMatchingEmail(companyName) {
-      const companyNameParts = companyName.split(" ");
-      for (const entry of emailData) {
-        const email = entry.email;
-        const domainPart = email.split("@")[1];
-        if (
-          companyNameParts.some((part) =>
-            domainPart.includes(part.toLowerCase())
-          )
-        ) {
-          return email;
-        }
-      }
-      return null; // No matching email found
-    }
+    console.log("Loaded email data:", emailData, emailData.length);
+    // const emailDomainParts = emailData.flatMap((entry) => {
+    //   const email = entry.email;
+    //   const domainPart = email.split("@")[1];
+    //   return domainPart
+    //     .split(".")
+    //     .slice(0, -1)
+    //     .map((part) => part.toLowerCase());
+    // });
+    // console.log("Loaded email domain parts:", emailDomainParts);
 
-    //remove any items with lenght less than 3
-    emailDomainParts.forEach((part, index) => {
-      if (part.length < 3) {
-        emailDomainParts.splice(index, 1);
-      }
-    });
+    // // Function to find a matching email based on company name
+    // function findMatchingEmail(companyName) {
+    //   const companyNameParts = companyName.split(" ");
+    //   for (const entry of emailData) {
+    //     const email = entry.email;
+    //     const domainPart = email.split("@")[1];
+    //     if (
+    //       companyNameParts.some((part) =>
+    //         domainPart.includes(part.toLowerCase())
+    //       )
+    //     ) {
+    //       return email;
+    //     }
+    //   }
+    //   return null; // No matching email found
+    // }
+
+    // //remove any items with lenght less than 3
+    // emailDomainParts.forEach((part, index) => {
+    //   if (part.length < 3) {
+    //     emailDomainParts.splice(index, 1);
+    //   }
+    // });
 
     for (let pageNumber = 1; pageNumber <= pagesToScrape; pageNumber++) {
       const url = baseUrl + pageNumber;
@@ -110,31 +112,52 @@ const { response } = require("express");
       fs.writeFileSync(rawData, JSON.stringify(newData, null, 2));
 
       console.log("Raw data has been saved to", rawData);
-      // Filter company data based on similarity of domain parts
-      const filteredData = companyData.filter((company) => {
-        const companyNameParts = company.name.split(" ");
-        return companyNameParts.some((namePart) => {
-          return emailDomainParts.includes(namePart.toLowerCase());
-        });
-      });
 
-      // Map filteredData to include matching email addresses
-      const dataWithMatchingEmails = filteredData.map((company) => {
-        const matchingEmail = findMatchingEmail(company.name);
+      // Create a new array of company data with emails
+      const companiesWithEmails = [];
+
+      for (const company of companyData) {
+        const matchingEmail =
+          emailData.find((entry) => entry.name === company.name)?.email || null;
+
         if (matchingEmail) {
-          company.email = matchingEmail;
+          companiesWithEmails.push({
+            ...company,
+            email: matchingEmail
+          });
         }
-        return company;
-      });
+      }
 
-      scrapedData = scrapedData.concat(dataWithMatchingEmails);
-      const uniqueData = Array.from(
-        new Set(scrapedData.map(JSON.stringify))
-      ).map(JSON.parse);
+      fs.writeFileSync(
+        outputFileName,
+        JSON.stringify(companiesWithEmails, null, 2)
+      );
 
-      fs.writeFileSync(outputFileName, JSON.stringify(uniqueData, null, 2));
+      // // Filter company data based on similarity of domain parts
+      // const filteredData = companyData.filter((company) => {
+      //   const companyNameParts = company.name.split(" ");
+      //   return companyNameParts.some((namePart) => {
+      //     return emailDomainParts.includes(namePart.toLowerCase());
+      //   });
+      // });
 
-      await page.close();
+      // // Map filteredData to include matching email addresses
+      // const dataWithMatchingEmails = filteredData.map((company) => {
+      //   const matchingEmail = findMatchingEmail(company.name);
+      //   if (matchingEmail) {
+      //     company.email = matchingEmail;
+      //   }
+      //   return company;
+      // });
+
+      // scrapedData = scrapedData.concat(dataWithMatchingEmails);
+      // const uniqueData = Array.from(
+      //   new Set(scrapedData.map(JSON.stringify))
+      // ).map(JSON.parse);
+
+      // fs.writeFileSync(outputFileName, JSON.stringify(uniqueData, null, 2));
+
+      // await page.close();
     }
 
     console.log("Scraped data has been saved to", outputFileName);
