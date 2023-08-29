@@ -1,0 +1,458 @@
+[
+  {
+    "name": "L'OREAL EAST AFRICA LTD",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$816.54M",
+    "email": "info@loreal.com"
+  },
+  {
+    "name": "KENAFRIC INDUSTRIES LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$325.95M",
+    "email": "info@kenafricml.com"
+  },
+  {
+    "name": "BRITISH AMERICAN TOBACCO KENYA PLC",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$225.92M",
+    "email": "info_ke@bat.com"
+  },
+  {
+    "name": "ABYSSINIA IRON AND STEEL LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$214.78M",
+    "email": "information@abyssiniagroup.com"
+  },
+  {
+    "name": "MUMIAS SUGAR COMPANY LIMITED",
+    "location": " Mumias, Kenya",
+    "salesRevenue": "$185.03M",
+    "email": "md@chemsugar.co.ke"
+  },
+  {
+    "name": "KAPA OIL REFINERIES LTD",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$177.26M",
+    "email": "info@kapa-oil.com"
+  },
+  {
+    "name": "BAMBURI CEMENT PLC",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$164.2M",
+    "email": "corp.info@lafarge.com"
+  },
+  {
+    "name": "C AND P SHOES INDUSTRIES LTD",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$107.58M",
+    "email": "info@cpshoes.com"
+  },
+  {
+    "name": "CZARNIKOW SUGAR EAST AFRICA LTD",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$97.17M",
+    "email": "jtaylor@czarnikow.com"
+  },
+  {
+    "name": "CROWN PAINTS KENYA PLC",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$85.8M",
+    "email": "info@crownpaints.co.ke"
+  },
+  {
+    "name": "HASHI ENERGY LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$80.56M",
+    "email": "Info@hashienergy.com"
+  },
+  {
+    "name": "TATA CHEMICALS MAGADI LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$77.57M",
+    "email": "info@tatachemicals.com"
+  },
+  {
+    "name": "TECHNOPLAST LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$73.56M",
+    "email": "showroom@techno-plast.com"
+  },
+  {
+    "name": "MANIPAL INTERNATIONAL PRINTING PRESS LTD",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$53.04M",
+    "email": "info@manipalea.com"
+  },
+  {
+    "name": "INSTA PRODUCTS (EPZ) LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$42.05M",
+    "email": "info@instaproducts.co"
+  },
+  {
+    "name": "NAILS AND STEEL PRODUCTS LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$40.55M",
+    "email": "business@nspltd.com"
+  },
+  {
+    "name": "NATIONAL CEMENTS COMPANY LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$39.75M",
+    "email": "info@devkisteel.com"
+  },
+  {
+    "name": "UNITED ARYAN (EPZ) LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$39.41M",
+    "email": "admin@unitedaryan.net"
+  },
+  {
+    "name": "TILE AND CARPET CENTRE LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$34.56M",
+    "email": "mail@tilecentre.com"
+  },
+  {
+    "name": "ALLIANCE CONCRETE LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$34.56M",
+    "email": "info@alliance-concrete.com"
+  },
+  {
+    "name": "PROTO ENERGY LTD",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$32.44M",
+    "email": "info@protoenergy.com"
+  },
+  {
+    "name": "DODHIA PACKAGING KENYA LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$25.95M",
+    "email": "sales@dplkenya.com"
+  },
+  {
+    "name": "HEALTH STRAT LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$24.16M",
+    "email": "info@healthstrat.co.ke"
+  },
+  {
+    "name": "SASINI PLC",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$23.29M",
+    "email": "info@sasini.co.ke"
+  },
+  {
+    "name": "GENERAL PRINTERS LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$19M",
+    "email": "info@gpl.co.ke"
+  },
+  {
+    "name": "EAST AFRICAN PORTLAND CEMENT PLC",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$18.39M",
+    "email": "customercare@eapcc.co.ke"
+  },
+  {
+    "name": "TWIGA CHEMICAL INDUSTRIES LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$17.59M",
+    "email": "smubisa@twiga-chem.com"
+  },
+  {
+    "name": "ASHUT ENGINEERS LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$17.01M",
+    "email": "salesorders@ashut.com"
+  },
+  {
+    "name": "OLIVADO (EPZ) LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$16.3M",
+    "email": "sales@olivado.com"
+  },
+  {
+    "name": "AQUAMIST LTD",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$16.3M",
+    "email": "info@aquamistwater.com"
+  },
+  {
+    "name": "UPFIELD KENYA LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$16.3M",
+    "email": "medialine@upfield.com"
+  },
+  {
+    "name": "GOLDEN AFRICA KENYA LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$16.3M",
+    "email": "info@gakl.co.ke"
+  },
+  {
+    "name": "EAST AFRICAN BREWERIES LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$16.14M",
+    "email": "eablinfo@eabl.com"
+  },
+  {
+    "name": "MANCHESTER OUTFITTERS LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$16.14M",
+    "email": "service@man-outt.com"
+  },
+  {
+    "name": "VAJAS MANUFACTURERS LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$16.14M",
+    "email": "sales@vajas.com"
+  },
+  {
+    "name": "THE WRIGLEY COMPANY (EAST AFRICA) LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$15.97M",
+    "email": "infokenya@wrigley.com"
+  },
+  {
+    "name": "CHARDUST LTD",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$15.63M",
+    "email": "info@chardust.com"
+  },
+  {
+    "name": "EAST AFRICAN CABLES PLC",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$14.37M",
+    "email": "customercare@eacables.com"
+  },
+  {
+    "name": "MEGH CUSHION INDUSTRIES LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$14.33M",
+    "email": "info@meghsingh.com"
+  },
+  {
+    "name": "VITAFOAM PRODUCTS LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$13.06M",
+    "email": "info@vitafoam.co.ke"
+  },
+  {
+    "name": "UNILEVER KENYA LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$13.04M",
+    "email": "Finance.AP.KE@unilever.com"
+  },
+  {
+    "name": "FORCES EQUIPMENT KENYA LTD",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$12.77M",
+    "email": "forces@forces.co.ke"
+  },
+  {
+    "name": "SASINI PLC",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$12.62M",
+    "email": "info@sasini.co.ke"
+  },
+  {
+    "name": "BOC KENYA PLC",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$12.23M",
+    "email": "boceastafrica@boc.com"
+  },
+  {
+    "name": "BAT KENYA TOBACCO COMPANY LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$11.5M",
+    "email": "info_ke@bat.com"
+  },
+  {
+    "name": "DODHIA PACKAGING KENYA LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$11.2M",
+    "email": "sales@dplkenya.com"
+  },
+  {
+    "name": "KNITKRAFT PRODUCTS LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$10.76M",
+    "email": "info@knitkraft.net"
+  },
+  {
+    "name": "ENGLISH PRESS LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$10.61M",
+    "email": "mail@englishpress.com"
+  },
+  {
+    "name": "HAPPY COW LTD",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$10.55M",
+    "email": "info@happycowhk.com"
+  },
+  {
+    "name": "HI-TECH INKS AND COATING LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$10.52M",
+    "email": "uday.desai@hitechinks.co.in"
+  },
+  {
+    "name": "ALLPACK INDUSTRIES LTD",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$10.38M",
+    "email": "bb@allpack.co.ke"
+  },
+  {
+    "name": "PRIME CARTONS LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$10.38M",
+    "email": "info@aerogrouplogistics.com"
+  },
+  {
+    "name": "ASL PACKAGING LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$10.38M",
+    "email": "info@asltrading.co.ke"
+  },
+  {
+    "name": "CARTON EXPERTS LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$10.38M",
+    "email": "Info@celkenya.com"
+  },
+  {
+    "name": "EAST AFRICAN PACKAGING INDUSTRIES LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$10.38M",
+    "email": "sales@eapi.co.ke"
+  },
+  {
+    "name": "QUICKPACK LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$10.38M",
+    "email": "sales@quickpack.co.ke"
+  },
+  {
+    "name": "NCR (KENYA) LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$10.32M",
+    "email": "africa@chic-global.com"
+  },
+  {
+    "name": "SUPREME PACKAGING LLP",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$9.99M",
+    "email": "info@supremepack.com.au"
+  },
+  {
+    "name": "PATIALA DISTILLERS (K) LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$9.63M",
+    "email": "info@patialadistillerskenya.com"
+  },
+  {
+    "name": "KENYA WINE AGENCIES LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$9.63M",
+    "email": "info@kwal.co.ke"
+  },
+  {
+    "name": "DION WINE AND SPIRITS EAST AFRICA LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$9.63M",
+    "email": "info@dionwinesea.com"
+  },
+  {
+    "name": "ECOERI GREEN COMPANY LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$8.85M",
+    "email": "info@gogreenenergy.co.ke"
+  },
+  {
+    "name": "SIGMA FEEDS LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$8.77M",
+    "email": "info@sigmafeeds.com"
+  },
+  {
+    "name": "VIVO ENERGY KENYA LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$8.64M",
+    "email": "info@vivoenergy.com"
+  },
+  {
+    "name": "SPECIALISED SUPPLIERS INVESTMENTS LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$8.49M",
+    "email": "procurement@kiseb.or.ke"
+  },
+  {
+    "name": "SHANKAN ENTERPRISES LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$8.46M",
+    "email": "info@shankan.com"
+  },
+  {
+    "name": "TURBAN ENERGY LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$8.46M",
+    "email": "Info@hashienergy.com"
+  },
+  {
+    "name": "DROPLEX INDUSTRIAL SYSTEMS LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$8.46M",
+    "email": "info@droplex.com"
+  },
+  {
+    "name": "KENYA BIXA LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$8.33M",
+    "email": "info@kenyabixa.com"
+  },
+  {
+    "name": "NEOPACK LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$8.26M",
+    "email": "info@neopack.co.ke"
+  },
+  {
+    "name": "KTDA MANAGEMENT SERVICES LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$8.15M",
+    "email": "info@ktdateas.com"
+  },
+  {
+    "name": "TETRAPAK EA LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$8.15M",
+    "email": "info@tetrapak.com"
+  },
+  {
+    "name": "PROMASIDOR (KENYA) LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$8.15M",
+    "email": "info@promasidor.com"
+  },
+  {
+    "name": "VICTORIA JUICE CO. LTD",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$8.15M",
+    "email": "info@victoriajuice.co.ke"
+  },
+  {
+    "name": "GROUPACO HOLDINGS LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$8.15M",
+    "email": "info@groupaco.co"
+  },
+  {
+    "name": "NOSTALGIC FOODS LIMITED",
+    "location": " Nairobi, Kenya",
+    "salesRevenue": "$8.15M",
+    "email": "info@delightfoods.com"
+  }
+]
