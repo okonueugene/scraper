@@ -1,71 +1,83 @@
 const axios = require("axios");
+const fs = require("fs");
 
-// Replace these variables with your actual values
-const CONSUMER_KEY = "LcbJqOZAj4c5QRIPDd9sGJg67qrSC2uh";
-const CONSUMER_SECRET = "RC77fow6aPiGF6Hk";
-const GENERATE_ACCESS_TOKEN_URL =
-  "https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials";
-const STORE_NUMBER = "174379";
-const PASSKEY =
-  "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919";
-const STK_PUSH_URL =
-  "https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest";
-const PHONE_NUMBER = "254725614560";
-const CALLBACK_URL = "https://api.optitech.co.ke/api/deliverance/confirmation";
+//read data from keys.json
+const keys = JSON.parse(fs.readFileSync("keys.json", "utf-8"));
+
+//aplly destructuring to keys object
+const consumerKey = keys.consumerKey;
+const consumerSecret = keys.consumerSecret;
+const businessShortCode = keys.businessShortCode;
+const passkey = keys.passkey;
+const phoneNumber = keys.phoneNumber;
+const callbackUrl = keys.callbackUrl;
+const amount = keys.amount;
+const customerName = keys.customerName;
+const authorizationUrl = keys.authorizationUrl;
+const stkPushUrl = keys.stkPushUrl;
 
 async function generateAccessToken() {
-  const credentials = Buffer.from(
-    `${CONSUMER_KEY}:${CONSUMER_SECRET}`
-  ).toString("base64");
+  const credentials = Buffer.from(`${consumerKey}:${consumerSecret}`).toString(
+    "base64"
+  );
   try {
-    const {
-      data: { access_token }
-    } = await axios.get(GENERATE_ACCESS_TOKEN_URL, {
+    const response = await axios.get(authorizationUrl, {
       headers: {
         Authorization: `Basic ${credentials}`
       }
     });
-    return access_token.replace(/\n/g, ""); // Remove newline characters
+
+    const accessToken = response.data.access_token;
+    return accessToken;
   } catch (error) {
-    console.error(error);
+    console.error("Error generating access token:", error);
   }
 }
 
 async function stkPush() {
-  const access_token = await generateAccessToken();
+  const accessToken = await generateAccessToken();
+  const password = Buffer.from(
+    `${businessShortCode}${passkey}${new Date()
+      .toISOString()
+      .replace(/[-:.T]/g, "")
+      .slice(0, 14)}`
+  ).toString("base64");
 
   const requestData = {
-    BusinessShortCode: STORE_NUMBER,
-    Password: Buffer.from(
-      `${STORE_NUMBER}${PASSKEY}${new Date()
-        .toISOString()
-        .replace(/[-:.T]/g, "")}`
-    ).toString("base64"),
+    BusinessShortCode: businessShortCode,
+    Password: password,
     Timestamp: new Date()
       .toISOString()
       .replace(/[-:.T]/g, "")
       .slice(0, 14),
     TransactionType: "CustomerPayBillOnline",
-    Amount: "1",
-    PartyA: PHONE_NUMBER,
-    PartyB: STORE_NUMBER,
-    PhoneNumber: PHONE_NUMBER,
-    CallBackURL: CALLBACK_URL,
-    AccountReference: "Test",
-    TransactionDesc: "Test"
+    Amount: amount,
+    PartyA: phoneNumber,
+    PartyB: businessShortCode,
+    PhoneNumber: phoneNumber,
+    CallBackURL: callbackUrl,
+    AccountReference: customerName,
+    TransactionDesc: "Testing stk push on sandbox"
   };
 
   try {
-    const response = await axios.post(STK_PUSH_URL, requestData, {
+    const response = await axios.post(stkPushUrl, requestData, {
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${access_token}`
+        Authorization: `Bearer ${accessToken}`
       }
     });
 
     console.log(response.data);
+
+    if (response.data.ResponseCode) {
+      return response.data.ResponseCode;
+    } else {
+      return "ResponseCode not found in the response";
+    }
   } catch (error) {
     console.error("An error occurred:", error);
+    return "Invalid JSON response";
   }
 }
 

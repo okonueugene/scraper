@@ -35,7 +35,6 @@ app.get("/api/test", (req, res) => {
   res.json(test);
 });
 
-//api call to excecute companies.js
 //api call to execute companies.js
 app.get("/api/scrape", (req, res) => {
   const { spawn } = require("child_process");
